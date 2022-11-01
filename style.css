@@ -14,13 +14,62 @@ body{
     background-color: #1f2937;
 }
 
-.navbar-right{
-    list-style-type:none;
+.navbar{
+    display: flex;
+    flex-direction: row;
 }
 
-/*
+.navbar-left,.navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.navbar-right{
+    list-style-type: none;
+}
+*/
+
+
 #header-logo{
     font-size: 24px;
     color: #f9faf8;
 }
-/*
+
+.header-link{
+    font-size: 18px;
+    color: #e5e7e8;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.content-left,.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+img{
+    margin: 50px;
+}
